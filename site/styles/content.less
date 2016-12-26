@@ -3,3 +3,66 @@
  * Dafna Bareket
  * Authors: Iliya Melishev
  */
+
+body {
+	background-image: url(../images/background.jpg);
+	background-size: 100% auto;
+	background-position: center top;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+section.main {
+	position: absolute;
+	top: 100px;
+	left: calc(~'(50% - 600px)');
+ 	background: radial-gradient(@color_grey 75%, lighten(@color_grey, 98%));
+ 	box-sizing: border-box;
+ 	padding: 185px 1em 0 1em;
+}
+
+section.main div.floating {
+	display: block;
+	position: absolute;
+	bottom: 90%;
+	left: 1.3em;
+	width: 100%;
+	color: white;
+}
+
+section.main div.floating article {
+	display: block;
+	box-sizing: border-box;
+	padding: 1em;
+	text-align: center;
+	width: 70%;
+	background-color: @color_pink;
+}
+
+section.main div.floating article h2 {
+	font-size: 2.5em;
+	margin: 0;
+	font-weight: 400;
+}
+
+section.main div.floating a {
+	display: block;
+	position: absolute;
+	top: 60%;
+	transform: translateY(-50%);
+	left: 2em;
+}
+
+section.main div.floating a.insta {
+	left: calc(~'10% + 2em');
+}
+
+section.main div.floating a svg {
+	width: 75px;
+	height: 75px;
+	fill: @color_blue;
+}
+
+section.main > article h2 {
+	margin: 0;
+}
