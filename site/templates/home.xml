@@ -9,7 +9,70 @@
 		</head>
 
 		<body>
-			<h1>It works!</h1>
+			<section class="main">
+				<div class="floating">
+					<cms:module
+						name="articles"
+						action="show"
+						text_id="upper"
+						template="stock/article_generic.xml"
+						>
+						<param name="title" value=""/>
+					</cms:module>
+					<a href="instagram" class="insta">
+						<cms:svg file="site-sprite" symbol="instagram" />
+					</a>
+					<a href="facebook" class="facebook">
+						<cms:svg file="site-sprite" symbol="facebook" />
+					</a>
+				</div>
+
+				<cms:module
+					name="articles"
+					action="show"
+					text_id="top_article"
+					template="stock/article_generic.xml"
+				/>
+				<br/>
+				<cms:module
+					name="articles"
+					action="show"
+					text_id="content"
+					template="stock/article_generic.xml"
+				/>
+
+				<h3><cms:text constant="know_more" /></h3>
+				<h4><cms:text constant="gallery" /></h4>
+				<a href="#gallery">
+					<cms:text constant="to_gallery" />
+				</a>
+				<div class="container">
+					<div class="form">
+						<cms:text contact="contact_me" />
+						<cms:module
+							name="contact_form"
+							action="show"
+							text_id="contact_form"
+						/>
+					</div>
+					<div class="logo">
+						<img
+							src="_BASEURL.'/site/images/logo.svg'"
+							alt="site_logo"
+							cms:eval="src"
+							/>
+					</div>
+				</div>
+			</section>
+
+			<section id="gallery">
+				<cms:module
+					name="gallery"
+					action="show_image_list"
+					group="projects"
+					template="parts/gallery.xml"
+				/>
+			</section>
 		</body>
 	</html>
 </document>
