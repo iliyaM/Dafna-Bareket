@@ -34,18 +34,22 @@
 					template="stock/article_generic.xml"
 				/>
 				<br/>
-				<cms:module
-					name="articles"
-					action="show"
-					text_id="content"
-					template="stock/article_generic.xml"
-				/>
+				<div class="content">
+					<cms:module
+						name="articles"
+						action="show"
+						text_id="content"
+						template="stock/article_generic.xml"
+					/>
+				</div>
 
-				<h3><cms:text constant="know_more" /></h3>
-				<h4><cms:text constant="gallery" /></h4>
-				<a href="#gallery">
-					<cms:text constant="to_gallery" />
-				</a>
+				<div class="gallery">
+					<h3><cms:text constant="know_more" /></h3>
+					<h4><cms:text constant="gallery" /></h4>
+					<a href="#gallery">
+						<cms:text constant="to_gallery" />
+					</a>
+				</div>
 				<div class="container">
 					<div class="form">
 						<cms:text contact="contact_me" />
