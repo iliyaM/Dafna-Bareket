@@ -52,7 +52,7 @@
 				</div>
 				<div class="container">
 					<div class="form">
-						<cms:text contact="contact_me" />
+					<h4><cms:text constant="contact_me" /></h4>
 						<cms:module
 							name="contact_form"
 							action="show"
