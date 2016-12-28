@@ -1,0 +1,214 @@
+/**
+ * Content_Mobile Style Sheet
+ * Dafna Bareket
+ * Authors: Iliya Melishev
+ */
+
+div.main {
+	background-image: url(../images/background.jpg),radial-gradient(@color_grey 75%, lighten(@color_grey, 98%));
+	background-size: 100% auto;
+	background-position: center top;
+	background-repeat: no-repeat;
+	display: block;
+	width: 100%;
+	padding: 0 1em;
+ 	box-sizing: border-box;
+ 	padding-top: 65%;
+	position: relative;
+}
+
+div.main div.floating {
+	position: absolute;
+	top: 50px;
+	left: 50%;
+	transform: translateX(-50%);
+ 	box-sizing: border-box;
+ 	color: white;
+ 	width: 85%;
+}
+
+div.main div.floating article {
+	display: block;
+	box-sizing: border-box;
+	text-align: center;
+	padding: 0.5em;
+	background-color: fade(@color_pink, 95%);
+}
+
+div.main div.floating article h2 {
+	font-size: 1.3em;
+	margin: 0;
+	font-weight: 700;
+	line-height: 100%;
+}
+
+div.main div.floating article p {
+	margin: 0;
+}
+
+div.main div.connections {
+	text-align: center;
+	display: block;
+	width: 100%;
+	position: relative;
+	padding: 1.5em 0;
+}
+
+div.main a {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+div.main a.insta {
+	left: 65%;
+}
+
+div.main a.facebook {
+	left: 35%;
+}
+
+div.main a svg {
+	width: 35px;
+	height: 35px;
+	fill: @color_blue;
+}
+
+div.main > article h2 {
+	font-size: 1.5em;
+}
+
+div.main > article p {
+	margin: 0;
+}
+
+div.main div.content ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	padding-top: 0.5em;
+}
+
+div.main div.content ul li {
+	padding-bottom: 0.5em;
+}
+
+div.main div.content ul li:before {
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	width: 7px;
+	height: 7px;
+	border-radius: 100%;
+	border: 1px solid @color_blue;
+	background-color: @color_pink;
+	margin-left: 1em;
+}
+
+div.main div.bottom_content h3 {
+	margin-bottom: 0.5em;
+}
+
+div.main div.container {
+	display: block;
+}
+
+div.main div.container div.form h4 {
+	margin-top: 0;
+}
+
+div.main div.container div.form {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	background-color: lighten(white, 10%);
+	padding: 1em;
+}
+
+div.main div.container div.form form {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+div.main div.container div.form form label {
+	display: block;
+	width: 100%;
+	padding-bottom: 1em;
+}
+
+div.main div.container div.form form input {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0.5em;
+	width: calc(~'100% - 70px');
+	border: 1px solid fade(@color_pink, 30%);
+	box-sizing: border-box;
+	transition: all 0.3s;
+}
+
+div.main div.container div.form form input:focus {
+	border: 1px solid @color_pink;
+}
+
+div.main div.container div.form form span {
+	display: inline-block;
+	vertical-align: middle;
+	width: 70px;
+}
+
+div.main div.container div.form form div.controls {
+	display: block;
+	text-align: left;
+	margin: 0 auto;
+}
+
+div.main div.container div.form form div.controls button {
+	color: @color_grey;
+	background-color: @color_pink;
+	border: 1px solid @color_grey;
+	font-size: 1.3em;
+	padding: 0.5em 1em;
+	border-radius: 5px;
+	margin-left: 1em;
+	cursor: pointer;
+}
+
+div.main div.container div.logo {
+	display: block;
+	padding: 1em 0;
+}
+
+div.main div.container div.logo img {
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+}
+
+/*
+*Section Gallery
+*/
+
+section#gallery {
+	padding: 1em;
+	background: linear-gradient(fade(@color_grey, 20%), darken(@color_grey, 10%));
+	text-align: center;
+}
+
+section#gallery a {
+	display: inline-block;
+	vertical-align: middle;
+	box-sizing: border-box;
+	padding-bottom: 1em;
+}
+
+section#gallery a:nth-of-type(odd) {
+	padding-left: 14px;
+}
+
+section#gallery a img {
+	display: block;
+	margin: 0 auto;
+	border: 1px solid darken(@color_grey, 10%);
+}

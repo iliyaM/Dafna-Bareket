@@ -25,14 +25,28 @@
 							<param name="title" value=""/>
 						</cms:module>
 
-						<!-- Links with svgs -->
-						<a href="instagram" class="insta">
-							<cms:svg file="site-sprite" symbol="instagram" />
-						</a>
-						<a href="facebook" class="facebook">
-							<cms:svg file="site-sprite" symbol="facebook" />
-						</a>
+						<cms:desktop>
+							<!-- Links with svgs -->
+							<a href="instagram" class="insta">
+								<cms:svg file="site-sprite" symbol="instagram" />
+							</a>
+							<a href="facebook" class="facebook">
+								<cms:svg file="site-sprite" symbol="facebook" />
+							</a>
+						</cms:desktop>
+
 					</div>
+					<cms:mobile>
+						<div class="connections">
+							<!-- Links with svgs -->
+							<a href="instagram" class="insta">
+								<cms:svg file="site-sprite" symbol="instagram" />
+							</a>
+							<a href="facebook" class="facebook">
+								<cms:svg file="site-sprite" symbol="facebook" />
+							</a>
+						</div>
+					</cms:mobile>
 
 					<!-- Top article -->
 					<cms:module
@@ -55,10 +69,12 @@
 					<!-- Bottom content with constants -->
 					<div class="bottom_content">
 						<h3><cms:text constant="know_more" /></h3>
-						<h4><cms:text constant="watch_gallery" /></h4>
-						<a href="#gallery">
-							<cms:text constant="to_gallery" />
-						</a>
+						<cms:desktop>
+							<h4><cms:text constant="watch_gallery" /></h4>
+							<a href="#gallery">
+								<cms:text constant="to_gallery" />
+							</a>
+						</cms:desktop>
 					</div>
 
 					<!-- Container to hold form and log inline -->
