@@ -27,10 +27,10 @@
 
 						<cms:desktop>
 							<!-- Links with svgs -->
-							<a href="instagram" class="insta">
+							<a href="instagram" target="_blank" class="insta">
 								<cms:svg file="site-sprite.svg" symbol="instagram" />
 							</a>
-							<a href="https://www.facebook.com/dafnaba?ref=br_rs" class="facebook">
+							<a href="https://www.facebook.com/dafnaba?ref=br_rs" target="_blank" class="facebook">
 								<cms:svg file="site-sprite.svg" symbol="facebook" />
 							</a>
 						</cms:desktop>
@@ -39,10 +39,10 @@
 					<cms:mobile>
 						<div class="connections">
 							<!-- Links with svgs -->
-							<a href="instagram" class="insta">
+							<a href="instagram" target="_blank" class="insta">
 								<cms:svg file="site-sprite.svg" symbol="instagram" />
 							</a>
-							<a href="facebook" class="facebook">
+							<a href="https://www.facebook.com/dafnaba?ref=br_rs" target="_blank" class="facebook">
 								<cms:svg file="site-sprite.svg" symbol="facebook" />
 							</a>
 						</div>
