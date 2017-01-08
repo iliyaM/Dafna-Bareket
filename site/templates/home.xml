@@ -30,7 +30,7 @@
 							<a href="instagram" class="insta">
 								<cms:svg file="site-sprite.svg" symbol="instagram" />
 							</a>
-							<a href="facebook" class="facebook">
+							<a href="https://www.facebook.com/dafnaba?ref=br_rs" class="facebook">
 								<cms:svg file="site-sprite.svg" symbol="facebook" />
 							</a>
 						</cms:desktop>
@@ -40,10 +40,10 @@
 						<div class="connections">
 							<!-- Links with svgs -->
 							<a href="instagram" class="insta">
-								<cms:svg file="site-sprite" symbol="instagram" />
+								<cms:svg file="site-sprite.svg" symbol="instagram" />
 							</a>
 							<a href="facebook" class="facebook">
-								<cms:svg file="site-sprite" symbol="facebook" />
+								<cms:svg file="site-sprite.svg" symbol="facebook" />
 							</a>
 						</div>
 					</cms:mobile>
