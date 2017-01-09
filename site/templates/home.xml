@@ -30,7 +30,7 @@
 							<a href="https://www.instagram.com/dafna_bareket/" target="_blank" class="insta">
 								<cms:svg file="site-sprite.svg" symbol="instagram" />
 							</a>
-							<a href="https://www.facebook.com/%D7%93%D7%A4%D7%A0%D7%94-%D7%91%D7%A8%D7%A7%D7%AA-%D7%A1%D7%93%D7%A8-%D7%A1%D7%98%D7%99%D7%99%D7%9C%D7%99%D7%A0%D7%92-%D7%95%D7%94%D7%9C%D7%91%D7%A9%D7%AA-%D7%94%D7%91%D7%99%D7%AA-927981350621786/?ref=bookmarks" target="_blank" class="facebook">
+							<a href="https://www.facebook.com/927981350621786" target="_blank" class="facebook">
 								<cms:svg file="site-sprite.svg" symbol="facebook" />
 							</a>
 						</cms:desktop>
@@ -42,7 +42,7 @@
 							<a href="https://www.instagram.com/dafna_bareket/" target="_blank" class="insta">
 								<cms:svg file="site-sprite.svg" symbol="instagram" />
 							</a>
-							<a href="https://www.facebook.com/%D7%93%D7%A4%D7%A0%D7%94-%D7%91%D7%A8%D7%A7%D7%AA-%D7%A1%D7%93%D7%A8-%D7%A1%D7%98%D7%99%D7%99%D7%9C%D7%99%D7%A0%D7%92-%D7%95%D7%94%D7%9C%D7%91%D7%A9%D7%AA-%D7%94%D7%91%D7%99%D7%AA-927981350621786/?ref=bookmarks" target="_blank" class="facebook">
+							<a href="https://www.facebook.com/927981350621786" target="_blank" class="facebook">
 								<cms:svg file="site-sprite.svg" symbol="facebook" />
 							</a>
 						</div>
