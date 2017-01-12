@@ -6,6 +6,11 @@
 			<title><cms:text constant="site_title"/></title>
 			<cms:collection  include="animation_chain,page_control"/>
 			<cms:module name="head_tag" action="print_tag"/>
+			<meta property="og:title" content="דפנה ברקת"/>
+			<meta property="og:description" content="סדר סטיילינג הלבשת הבית"/>
+			<meta property="og:type" content="website" />
+			<meta property="og:url" content="http://dafnabareket.com" />
+			<meta property="og:image" content="http://dafnabareket.com/site/images/background.jpg"/>
 		</head>
 
 		<body>
